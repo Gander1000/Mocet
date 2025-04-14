@@ -1,6 +1,6 @@
 import scss from "./Final.module.scss";
 import Fa from "../../assets/Faisboc.svg";
-import In from "../../assets/insta.svg";
+import In from "../../assets/Insta.svg";
 import Hi from "../../assets/Hip.svg";
 import Wc from "../../assets/Wc.svg";
 
