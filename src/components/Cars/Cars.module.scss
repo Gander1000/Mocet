@@ -1,0 +1,72 @@
+.Cars {
+    background-color: #7DD83F; 
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+  
+    h1 {
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      line-height: 1.4;
+      color: #FFFFFFCC;
+    }
+  
+    .ret {
+      display: inline-block;
+      background-color: #fff;
+      color: #000;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+  
+      p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: flex;
+        padding-left: 10px;
+        color: #000000;
+
+      }
+  
+      span {
+        display: block;
+        font-size: 18px;
+        color: #00ACA5;
+        margin-bottom: 20px;
+        display: flex;
+        padding-left: 10px;
+  
+        &.discounted {
+          text-decoration: line-through;
+          color: #999;
+          font-size: 16px;
+        }
+      }
+  
+      button {
+        background-color: #00ACA5;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 50px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #e31f1f;
+        }
+      }
+    }
+  }
+  

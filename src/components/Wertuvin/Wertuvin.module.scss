@@ -1,0 +1,61 @@
+.Wertuvin {
+    padding: 50px;
+    text-align: center;
+  
+    h4 {
+      color: #00ACA5;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 13px;
+    }
+  
+    span {
+      font-size: 20px;
+      color: #000000;
+      display: block;
+      margin-bottom: 40px;
+    }
+  
+    .conten {
+      display: flex;
+      margin-left: 300px;
+
+      .line{
+        max-width: 290px;
+      }
+  
+      div {
+        background: #fff;
+        padding: 5px;
+        text-align: center;
+        width: calc(25% - 20px);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+  
+        img {
+          width: 250px;
+          height: 140px;
+        }
+  
+        h3 {
+          font-size: 25px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 17px;
+          color: #00000066;
+        }
+      }
+    }
+  }
